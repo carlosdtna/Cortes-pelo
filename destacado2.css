@@ -1,0 +1,113 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Cabecera */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0d0f10cf;
+    color: white;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Sección de detalle */
+main {
+    padding: 20px;
+}
+
+.detalle {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.detalle h1 {
+    background-color: #0d0f10cf;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.detalle p {
+    padding: 15px;
+    line-height: 1.6;
+}
+
+.detalle video {  
+        width: 50%;
+        display: block;
+        margin: auto;
+        border: 2px solid rgba(13, 112, 204, 0.247);
+        border-radius: 6px;
+}
+
+.detalle a {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 15px auto;
+    width: fit-content;
+    background-color: #0d0f10cf;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.detalle a:hover {
+    background-color: #05344bcf;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0d0f10cf;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

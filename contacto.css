@@ -1,0 +1,152 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0d0f10cf;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img {
+    width: 50px;
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+footer {
+    background-color: #0d0f10cf;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del formulario de contacto */
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    color: #918f23;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    background: #817f1a7a;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 1rem;
+    display: block;
+    color: #333;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    box-sizing: border-box;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    background-color: #0d0f10cf;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+form button:active {
+    transform: scale(0.98);
+}
+
+/* Validación de campos */
+form input:valid,
+form textarea:valid {
+    border-color: #4CAF50;
+}
+
+form input:invalid,
+form textarea:invalid {
+    border-color: #1b0f0e;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 600px) {
+    form {
+        padding: 1rem;
+    }
+
+    header nav ul li {
+        margin: 0 0.5rem;
+    }
+}

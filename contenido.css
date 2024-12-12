@@ -1,0 +1,116 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #0d0f10cf;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 150px;
+    margin-bottom: 0.5rem;
+}
+
+header .menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+header .menu li {
+    display: inline;
+}
+
+header .menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+/* Sección principal */
+main {
+    padding: 2rem;
+}
+
+main .listado {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+main .listado h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #918f23;
+}
+
+main .tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+main .tarjeta {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main .tarjeta:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+main .tarjeta img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+main .tarjeta h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+main .tarjeta p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0 1rem 1rem;
+}
+
+/* Pie de página */
+footer {
+    background-color: #0d0f10cf;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #94d2bd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
