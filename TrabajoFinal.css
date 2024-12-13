@@ -1,4 +1,4 @@
-/* General Reset */
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     padding: 0;
 }
 
-/* Header Styles */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@ nav ul.menu li a:hover {
     color: #ffdd57;
 }
 
-/* Intro Section */
+
 .intro {
     text-align: center;
     padding: 2rem;
@@ -61,7 +61,7 @@ nav ul.menu li a:hover {
     font-size: 1.2rem;
 }
 
-/* Destacados Section */
+
 .destacados {
     padding: 2rem;
     background-color: #fff;
@@ -112,7 +112,7 @@ nav ul.menu li a:hover {
     color: #555;
 }
 
-/* Footer Styles */
+
 footer {
     background-color: #0d0f10cf;
     color: #fff;

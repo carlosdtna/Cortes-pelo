@@ -1,4 +1,4 @@
-/* Estilo general */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -42,7 +42,7 @@ header nav ul li a:hover {
     color: #ffeb3b;
 }
 
-/* Sección principal */
+
 main {
     padding: 2rem;
 }
@@ -96,7 +96,7 @@ main .tarjeta p {
     margin: 0 1rem 1rem;
 }
 
-/* Pie de página */
+
 footer {
     background-color: #0d0f10cf;
     color: white;

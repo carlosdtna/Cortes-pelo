@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
@@ -60,7 +60,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Estilos del formulario de contacto */
+
 main {
     padding: 2rem;
     display: flex;
@@ -129,7 +129,7 @@ form button:active {
     transform: scale(0.98);
 }
 
-/* Validación de campos */
+
 form input:valid,
 form textarea:valid {
     border-color: #4CAF50;
@@ -140,7 +140,7 @@ form textarea:invalid {
     border-color: #1b0f0e;
 }
 
-/* Ajustes responsivos */
+
 @media (max-width: 600px) {
     form {
         padding: 1rem;
